@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/app_gplx_3"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/go_practice"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Học lý thuyết"
+        android:background="@color/purple_200"/>
+
+    <Button
+        android:id="@+id/go_exam"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Thi"
+        android:background="@color/purple_200"/>
+
+    <Button
+        android:id="@+id/go_exam_quiz_wrong"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Làm lại câu sai"
+        android:background="@color/purple_200"/>
+
+</LinearLayout>

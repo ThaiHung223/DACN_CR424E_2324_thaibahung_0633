@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "DACN_CR424E_2324_thaibahung_0633"
